@@ -1,0 +1,89 @@
+:root{
+    --color:#a517ba;
+}
+.main-title::after{
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 3px;
+    background-color: var(--color);
+    left: 50%;
+    transform: translate(-50%);
+}
+body{
+     font-family: 'Roboto', sans-serif;
+}
+/* start navbar*/
+.navbar{
+    background-color: var(--color);
+}
+/* end navbar*/
+/* start landing*/
+.landing{
+    background-color: var(--color);
+}
+.landing .home{
+width: 90%;
+}
+.landing .info{
+    margin-top: 15%;
+}
+.landing button{
+    color: var(--color);
+}
+/* end landing*/
+/* start services*/
+.services .main-title::after{
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 2px;
+   background-color: var(--color);
+    left: 50%;
+    transform: translate(-50%);
+}
+.img{
+    width: 30%;
+}
+.btn{
+    background-color: var(--color);
+    color: #fff;
+}
+/* end services*/
+/* start features*/
+.features{
+    background-color: #eee;
+}
+.features .text{
+    margin-top: 15%;
+    margin-left: 15%;
+}
+/* end features*/
+/* start review*/
+.box{
+    border: 2px solid #eee;
+    background-color: #eee
+}
+.box img{
+    width: 50%;
+}
+.review .box p{
+    font-size: 15px;
+}
+/* end review*/
+/* start social*/
+.social img{
+    width: 70px;
+}
+/* end social*/
+/* start footer*/
+.footer{
+    background-color: var(--color);
+}
+.footer .prah{
+font-size: 15px;
+}
+.footer input{
+    color: var(--color);
+}
+/* end footer */
